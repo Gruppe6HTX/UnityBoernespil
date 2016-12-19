@@ -2,10 +2,17 @@
   
 function OnTriggerEnter(other : Collider) 
     {
-        if (other.tag == "Player") 
+        if (other.tag == "Player")
         {   
             // move and align the player to the destination empty GO
             other.transform.position = TelePosition.position;
             other.transform.rotation = TelePosition.rotation;
-        }        
+        }     
+        
+        if (other.tag == "Object")
+        {   
+            // move and align the player to the destination empty GO
+            other.transform.position = TelePosition.position;
+            other.transform.rotation = TelePosition.rotation;
+        } 
     }

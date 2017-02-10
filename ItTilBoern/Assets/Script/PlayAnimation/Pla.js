@@ -1,13 +1,13 @@
 ﻿var ani : Animator;
 var sound : AudioClip;
-private var enter : boolean;
+private var enter1 : boolean;
  
 function Start () {
     ani.enabled = false;
 }
 
 function Update(){
-    if(Input.GetMouseButton(0) && enter){
+    if(/*Input.GetButtonDown("Fire1") &&*/ enter1){
         OnMouseDown();
     }
 }
@@ -17,20 +17,14 @@ function OnMouseDown () {
     {
         yield WaitForSeconds (5);
         ani.enabled = false;
+        enter1 = false;
 
     }   
 }
 
 //Activate the Main function when player is near the door
 function OnTriggerEnter (other : Collider){
-    if (other.gameObject.tag == "Player") {
-        enter = true;
+    if (other.gameObject.tag == "Axe") {
+        enter1 = true;
     }
 }
-
-    //Deactivate the Main function when player is go away from door
-    function OnTriggerExit (other : Collider){
-        if (other.gameObject.tag == "Player") {
-            enter = false;
-        }
-    }

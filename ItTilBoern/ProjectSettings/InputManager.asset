@@ -185,9 +185,9 @@ InputManager:
     m_Name: Fire1
     descriptiveName: PickUp
     descriptiveNegativeName: 
-    negativeButton: 
+    negativeButton: joystick button 5
     positiveButton: joystick button 5
-    altNegativeButton: 
+    altNegativeButton: mouse 0
     altPositiveButton: mouse 0
     gravity: 1000
     dead: 0.001

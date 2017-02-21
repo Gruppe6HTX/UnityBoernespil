@@ -12,12 +12,14 @@ function Update(){
     }
 }
 function OnMouseDown () {
+    Destroy(gameObject);
     AudioSource.PlayClipAtPoint(sound, transform.position);
     ani.enabled = true;
     {
         yield WaitForSeconds (5);
         ani.enabled = false;
         enter1 = false;
+        
 
     }   
 }
@@ -26,5 +28,6 @@ function OnMouseDown () {
 function OnTriggerEnter (other : Collider){
     if (other.gameObject.tag == "Axe") {
         enter1 = true;
+        
     }
 }

@@ -26,7 +26,7 @@ function Update()
         justShot=false; // reset the justShot boolean, if the sphere is far enough
     }
 
-    if(/*distance < 2 && !canShoot && !justShot ||*/ Input.GetButtonDown("Fire1") && !canShoot && !justShot && distance < 8)
+    if(/*distance < 2 && !canShoot && !justShot ||*/ Input.GetButtonDown("Fire1") && !canShoot && !justShot && distance < 4)
     {
         g = false; // turns the gravity on
         canShoot = true;

@@ -37,7 +37,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.43748996, g: 0.48531258, b: 0.56558746, a: 1}
+  m_IndirectSpecularColor: {r: 0.43748936, g: 0.48531246, b: 0.5655869, a: 1}
 --- !u!157 &3
 LightmapSettings:
   m_ObjectHideFlags: 0
@@ -6374,7 +6374,8 @@ Prefab:
       propertyPath: m_LocalScale.z
       value: 0.9993069
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 9500000, guid: b3401a1279ef84946b366c6bd697cbab, type: 3}
   m_ParentPrefab: {fileID: 100100000, guid: b3401a1279ef84946b366c6bd697cbab, type: 3}
   m_IsPrefabParent: 0
 --- !u!4 &493005559 stripped
@@ -6464,7 +6465,7 @@ Prefab:
     m_Modifications:
     - target: {fileID: 400000, guid: b3401a1279ef84946b366c6bd697cbab, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 79.6
+      value: 88.1
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: b3401a1279ef84946b366c6bd697cbab, type: 3}
       propertyPath: m_LocalPosition.y
@@ -6472,7 +6473,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: b3401a1279ef84946b366c6bd697cbab, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 118.26
+      value: 117.764
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: b3401a1279ef84946b366c6bd697cbab, type: 3}
       propertyPath: m_LocalRotation.x
@@ -24711,8 +24712,8 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1574879721}
-  m_LocalRotation: {x: 0.28085563, y: 0.5010307, z: 0.1760109, w: -0.7994427}
-  m_LocalPosition: {x: 69.45055, y: -7.3163943, z: 179.7669}
+  m_LocalRotation: {x: 0.3323789, y: 0.5950592, z: 0.29544067, w: -0.6694353}
+  m_LocalPosition: {x: 114.86348, y: -54.924698, z: 34.981644}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -24734,7 +24735,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1302741024}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 80.14, y: 6, z: 15.9}
+  m_LocalPosition: {x: 80.14, y: 6, z: 69.9}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 235980547}
@@ -24854,6 +24855,69 @@ Prefab:
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: eae103ca085e5d44d9849df41cf23398, type: 3}
   m_IsPrefabParent: 0
+--- !u!1 &1609830312
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1609830314}
+  - component: {fileID: 1609830313}
+  m_Layer: 0
+  m_Name: Water4SimpleReflectionFirstPersonCharacter
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!20 &1609830313
+Camera:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1609830312}
+  m_Enabled: 0
+  serializedVersion: 2
+  m_ClearFlags: 1
+  m_BackGroundColor: {r: 1, g: 1, b: 1, a: 1}
+  m_NormalizedViewPortRect:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 1
+    height: 1
+  near clip plane: 0.3
+  far clip plane: 1000
+  field of view: 60
+  orthographic: 0
+  orthographic size: 5
+  m_Depth: 0
+  m_CullingMask:
+    serializedVersion: 2
+    m_Bits: 4294967279
+  m_RenderingPath: 1
+  m_TargetTexture: {fileID: 0}
+  m_TargetDisplay: 0
+  m_TargetEye: 3
+  m_HDR: 0
+  m_OcclusionCulling: 1
+  m_StereoConvergence: 10
+  m_StereoSeparation: 0.022
+  m_StereoMirrorMode: 0
+--- !u!4 &1609830314
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1609830312}
+  m_LocalRotation: {x: 0.3323789, y: 0.5950592, z: 0.29544067, w: -0.6694353}
+  m_LocalPosition: {x: 114.86348, y: -54.924698, z: 34.981644}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 19
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &1649698596 stripped
 Transform:
   m_PrefabParentObject: {fileID: 400000, guid: eae103ca085e5d44d9849df41cf23398, type: 3}

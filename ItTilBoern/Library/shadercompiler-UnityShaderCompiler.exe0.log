@@ -1,18 +1,22 @@
 Base path: C:/Program Files/Unity/Editor/Data
 Cmd: getPlatforms
 Cmd: preprocess
-  insize=447 outsize=447 ok=1
+  insize=464 outsize=464 ok=1
 Cmd: preprocess
-  insize=4235 outsize=1054 ok=1
+  insize=4398 outsize=1085 ok=1
 Cmd: preprocess
-  insize=12915 outsize=2549 ok=1
+  insize=13365 outsize=2647 ok=1
 Cmd: preprocess
-  insize=1048 outsize=943 ok=1
+  insize=1101 outsize=960 ok=1
 Cmd: preprocess
-  insize=12063 outsize=2430 ok=1
+  insize=12498 outsize=2525 ok=1
 Cmd: preprocess
-  insize=1576 outsize=943 ok=1
+  insize=1654 outsize=986 ok=1
 Cmd: preprocess
-  insize=1878 outsize=565 ok=1
+  insize=1968 outsize=588 ok=1
 Cmd: preprocess
-  insize=1500 outsize=635 ok=1
+  insize=1574 outsize=670 ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=9916 outsize=1370 kw=WATER_SIMPLE WATER_EDGEBLEND_ON WATER_VERTEX_DISPLACEMENT_OFF pd=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING SHADER_API_DESKTOP UNITY_COLORSPACE_GAMMA ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=9916 outsize=2394 kw=WATER_SIMPLE WATER_EDGEBLEND_ON WATER_VERTEX_DISPLACEMENT_OFF pd=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING SHADER_API_DESKTOP UNITY_COLORSPACE_GAMMA ok=1

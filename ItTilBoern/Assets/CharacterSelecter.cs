@@ -57,7 +57,7 @@ public class CharacterSelecter : MonoBehaviour
     public void LoadScene()
     {
         PlayerPrefs.SetInt("CharacterSelected", index);
-        SceneManager.LoadScene("testScene");
+        SceneManager.LoadScene("Start");
         
     }
 }

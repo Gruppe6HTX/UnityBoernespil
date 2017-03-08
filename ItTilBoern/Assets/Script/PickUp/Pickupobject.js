@@ -26,7 +26,7 @@ function Update()
         justShot=false; // reset the justShot boolean, if the sphere is far enough
     }
 
-    if(/*distance < 2 && !canShoot && !justShot ||*/ Input.GetButtonDown("Fire1") && !canShoot && !justShot && distance < 4)
+    if(/*distance < 2 && !canShoot && !justShot ||*/ Input.GetButtonDown("Fire1") && !canShoot && !justShot && distance < 6)
     {
         g = false; // turns the gravity on
         canShoot = true;
@@ -43,6 +43,7 @@ function Update()
     if(canShoot)
     {     
         transform.position = mc.transform.position + mc.transform.forward*5; // teleports the sphere in front of the player
+        transform.rotation = mc.transform.rotation;
         /*transform.eulerAngles = new Vector3(mc.transform.rotation.x, mc.transform.rotation.y, mc.transform.rotation.z);*/
         GetComponent.<Rigidbody>().velocity = Vector3.zero;    // Sets the velocity
         GetComponent.<Rigidbody>().angularVelocity = Vector3.zero; // and the rotation of the sphere to zero (rotation is not necessary if you work with a shere).
@@ -50,14 +51,14 @@ function Update()
      
 
 }
-function OnGUI () {
-    GUI.Label (Rect (Screen.width/2,Screen.height/2.1,Screen.width/2,Screen.height/2), "");
+//function OnGUI () {
+    //GUI.Label (Rect (Screen.width/2,Screen.height/2.1,Screen.width/2,Screen.height/2), "");
 
-    if (canShoot){
-        GUI.Label (Rect (Screen.width/2 - 40, Screen.height - 100, Screen.width/2, 30), "Press 'E' to throw");
-    } 
-    else if (!canShoot)
-    {
+    //if (canShoot){
+    //    GUI.Label (Rect (Screen.width/2 - 40, Screen.height - 100, Screen.width/2, 30), "Press 'E' to throw");
+   // } 
+   // else if (!canShoot)
+   // {
        // GUI.Label (Rect (Screen.width/2 - 40, Screen.height - 100, Screen.width/2, 30), "Press 'E' to pick up");
-    }
-}
+   // }
+//}

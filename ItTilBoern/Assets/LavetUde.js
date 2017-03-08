@@ -3,6 +3,6 @@
 function OnTriggerEnter(Col : Collider)
     {
         if (Col.tag == "Player"){
-            Application.LoadLevel("GG");
+            Application.LoadLevel("testScene");
         }
     }

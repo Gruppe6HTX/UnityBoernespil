@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Object
   - Axe
+  - TheEnd
   layers:
   - Default
   - TransparentFX

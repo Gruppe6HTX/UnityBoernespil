@@ -1,0 +1,53 @@
+Initialize engine version: 5.5.0f3 (38b4efef76f0)
+GfxDevice: creating device client; threaded=1
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.0]
+    Renderer: Intel(R) HD Graphics 5500 (ID=0x1616)
+    Vendor:   Intel
+    VRAM:     2109 MB
+    Driver:   20.19.15.4568
+Begin MonoManager ReloadAssembly
+Platform assembly: C:\Users\Emil\Documents\GitHub\UnityBoernespil\ItTilBoern\Build\RodhetteV1.0_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading C:\Users\Emil\Documents\GitHub\UnityBoernespil\ItTilBoern\Build\RodhetteV1.0_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: C:\Users\Emil\Documents\GitHub\UnityBoernespil\ItTilBoern\Build\RodhetteV1.0_Data\Managed\Assembly-CSharp-firstpass.dll (this message is harmless)
+Loading C:\Users\Emil\Documents\GitHub\UnityBoernespil\ItTilBoern\Build\RodhetteV1.0_Data\Managed\Assembly-CSharp-firstpass.dll into Unity Child Domain
+Platform assembly: C:\Users\Emil\Documents\GitHub\UnityBoernespil\ItTilBoern\Build\RodhetteV1.0_Data\Managed\Assembly-CSharp.dll (this message is harmless)
+Loading C:\Users\Emil\Documents\GitHub\UnityBoernespil\ItTilBoern\Build\RodhetteV1.0_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
+Platform assembly: C:\Users\Emil\Documents\GitHub\UnityBoernespil\ItTilBoern\Build\RodhetteV1.0_Data\Managed\Assembly-UnityScript.dll (this message is harmless)
+Loading C:\Users\Emil\Documents\GitHub\UnityBoernespil\ItTilBoern\Build\RodhetteV1.0_Data\Managed\Assembly-UnityScript.dll into Unity Child Domain
+Platform assembly: C:\Users\Emil\Documents\GitHub\UnityBoernespil\ItTilBoern\Build\RodhetteV1.0_Data\Managed\UnityEngine.UI.dll (this message is harmless)
+Loading C:\Users\Emil\Documents\GitHub\UnityBoernespil\ItTilBoern\Build\RodhetteV1.0_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
+Platform assembly: C:\Users\Emil\Documents\GitHub\UnityBoernespil\ItTilBoern\Build\RodhetteV1.0_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
+Loading C:\Users\Emil\Documents\GitHub\UnityBoernespil\ItTilBoern\Build\RodhetteV1.0_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
+Platform assembly: C:\Users\Emil\Documents\GitHub\UnityBoernespil\ItTilBoern\Build\RodhetteV1.0_Data\Managed\UnityEngine.PlaymodeTestsRunner.dll (this message is harmless)
+Loading C:\Users\Emil\Documents\GitHub\UnityBoernespil\ItTilBoern\Build\RodhetteV1.0_Data\Managed\UnityEngine.PlaymodeTestsRunner.dll into Unity Child Domain
+Platform assembly: C:\Users\Emil\Documents\GitHub\UnityBoernespil\ItTilBoern\Build\RodhetteV1.0_Data\Managed\UnityEngine.Analytics.dll (this message is harmless)
+Loading C:\Users\Emil\Documents\GitHub\UnityBoernespil\ItTilBoern\Build\RodhetteV1.0_Data\Managed\UnityEngine.Analytics.dll into Unity Child Domain
+- Completed reload, in  0.150 seconds
+Platform assembly: C:\Users\Emil\Documents\GitHub\UnityBoernespil\ItTilBoern\Build\RodhetteV1.0_Data\Managed\System.Core.dll (this message is harmless)
+Platform assembly: C:\Users\Emil\Documents\GitHub\UnityBoernespil\ItTilBoern\Build\RodhetteV1.0_Data\Managed\System.dll (this message is harmless)
+desktop: 1920x1080 50Hz; virtual: 1920x1080 at 0,0
+<RI> Initializing input.
+<RI> Input initialized.
+<RI> Initialized touch support.
+UnloadTime: 5.525140 ms
+Setting up 1 worker threads for Enlighten.
+  Thread -> id: 1fc0 -> priority: 1 
+Unloading 6 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 16.355217 ms
+
+Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 1024.
+Total: 3.281120 ms (FindLiveObjects: 0.202008 ms CreateObjectMapping: 0.148357 ms MarkObjects: 0.795903 ms  DeleteObjects: 2.132518 ms)
+
+The referenced script on this Behaviour (Game Object 'FPSController') is missing!
+ 
+(Filename:  Line: 1754)
+
+Unloading 6 Unused Serialized files (Serialized files now loaded: 0)
+WARNING: Shader Unsupported: 'Toon/Basic Outline' - Pass 'OUTLINE' has no vertex shader
+WARNING: Shader Unsupported: 'Toon/Basic Outline' - All passes removed
+UnloadTime: 4.894855 ms
+
+Unloading 34 unused Assets to reduce memory usage. Loaded Objects now: 1321.
+Total: 8.828187 ms (FindLiveObjects: 0.238397 ms CreateObjectMapping: 0.303245 ms MarkObjects: 1.156999 ms  DeleteObjects: 7.128144 ms)
+

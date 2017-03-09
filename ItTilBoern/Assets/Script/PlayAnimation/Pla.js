@@ -1,17 +1,17 @@
 ﻿var ani : Animator;
 var sound : AudioClip;
-private var enter1 : boolean;
+var enter1 : boolean;
  
 function Start () {
     ani.enabled = false;
 }
 
 function Update(){
-    if(/*Input.GetButtonDown("Fire1") &&*/ enter1){
-        OnMouseDown();
+    if(Input.GetButtonDown("Fire1") && enter1){
+        PlayAni();
     }
 }
-function OnMouseDown () {
+function PlayAni () {
     Destroy(gameObject);
     AudioSource.PlayClipAtPoint(sound, transform.position);
     ani.enabled = true;

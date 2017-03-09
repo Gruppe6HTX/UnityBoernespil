@@ -89,8 +89,9 @@
   <ItemGroup>
     <Compile Include="Assets\Script\CharacterSelection\CharacterSelecter.cs" />
     <Compile Include="Assets\Script\CharacterSelection\CharacterSelection.cs" />
-    <Compile Include="Assets\Script\LevelChanger.cs" />
-    <Compile Include="Assets\Script\ScreenFader.cs" />
+    <Compile Include="Assets\Script\Fading\LevelChanger.cs" />
+    <Compile Include="Assets\Script\Fading\ScreenFader.cs" />
+    <Compile Include="Assets\Script\Hint\HintSoundPlayer.cs" />
     <Compile Include="Assets\Sprites\LoadOnClick.cs" />
   </ItemGroup>
   <ItemGroup>

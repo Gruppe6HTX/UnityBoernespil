@@ -1,0 +1,53 @@
+Initialize engine version: 5.5.0f3 (38b4efef76f0)
+GfxDevice: creating device client; threaded=1
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.0]
+    Renderer: NVIDIA GeForce GTX 770 (ID=0x1184)
+    Vendor:   NVIDIA
+    VRAM:     2017 MB
+    Driver:   21.21.13.7849
+Begin MonoManager ReloadAssembly
+Platform assembly: C:\Users\Emil\Documents\GitHub\UnityRodhet\ItTilBoern\Build\RodhetteV1.3_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading C:\Users\Emil\Documents\GitHub\UnityRodhet\ItTilBoern\Build\RodhetteV1.3_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: C:\Users\Emil\Documents\GitHub\UnityRodhet\ItTilBoern\Build\RodhetteV1.3_Data\Managed\Assembly-CSharp-firstpass.dll (this message is harmless)
+Loading C:\Users\Emil\Documents\GitHub\UnityRodhet\ItTilBoern\Build\RodhetteV1.3_Data\Managed\Assembly-CSharp-firstpass.dll into Unity Child Domain
+Platform assembly: C:\Users\Emil\Documents\GitHub\UnityRodhet\ItTilBoern\Build\RodhetteV1.3_Data\Managed\Assembly-CSharp.dll (this message is harmless)
+Loading C:\Users\Emil\Documents\GitHub\UnityRodhet\ItTilBoern\Build\RodhetteV1.3_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
+Platform assembly: C:\Users\Emil\Documents\GitHub\UnityRodhet\ItTilBoern\Build\RodhetteV1.3_Data\Managed\Assembly-UnityScript.dll (this message is harmless)
+Loading C:\Users\Emil\Documents\GitHub\UnityRodhet\ItTilBoern\Build\RodhetteV1.3_Data\Managed\Assembly-UnityScript.dll into Unity Child Domain
+Platform assembly: C:\Users\Emil\Documents\GitHub\UnityRodhet\ItTilBoern\Build\RodhetteV1.3_Data\Managed\UnityEngine.UI.dll (this message is harmless)
+Loading C:\Users\Emil\Documents\GitHub\UnityRodhet\ItTilBoern\Build\RodhetteV1.3_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
+Platform assembly: C:\Users\Emil\Documents\GitHub\UnityRodhet\ItTilBoern\Build\RodhetteV1.3_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
+Loading C:\Users\Emil\Documents\GitHub\UnityRodhet\ItTilBoern\Build\RodhetteV1.3_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
+Platform assembly: C:\Users\Emil\Documents\GitHub\UnityRodhet\ItTilBoern\Build\RodhetteV1.3_Data\Managed\UnityEngine.PlaymodeTestsRunner.dll (this message is harmless)
+Loading C:\Users\Emil\Documents\GitHub\UnityRodhet\ItTilBoern\Build\RodhetteV1.3_Data\Managed\UnityEngine.PlaymodeTestsRunner.dll into Unity Child Domain
+Platform assembly: C:\Users\Emil\Documents\GitHub\UnityRodhet\ItTilBoern\Build\RodhetteV1.3_Data\Managed\UnityEngine.Analytics.dll (this message is harmless)
+Loading C:\Users\Emil\Documents\GitHub\UnityRodhet\ItTilBoern\Build\RodhetteV1.3_Data\Managed\UnityEngine.Analytics.dll into Unity Child Domain
+- Completed reload, in  0.049 seconds
+Platform assembly: C:\Users\Emil\Documents\GitHub\UnityRodhet\ItTilBoern\Build\RodhetteV1.3_Data\Managed\System.Core.dll (this message is harmless)
+Platform assembly: C:\Users\Emil\Documents\GitHub\UnityRodhet\ItTilBoern\Build\RodhetteV1.3_Data\Managed\System.dll (this message is harmless)
+desktop: 1920x1080 60Hz; virtual: 3360x1080 at -1440,0
+<RI> Initializing input.
+<RI> Input initialized.
+<RI> Initialized touch support.
+UnloadTime: 2.219346 ms
+Setting up 1 worker threads for Enlighten.
+  Thread -> id: 4848 -> priority: 1 
+Unloading 6 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 2.885003 ms
+
+Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 1030.
+Total: 0.798565 ms (FindLiveObjects: 0.053777 ms CreateObjectMapping: 0.028076 ms MarkObjects: 0.236761 ms  DeleteObjects: 0.476317 ms)
+
+The referenced script on this Behaviour (Game Object 'FPSController') is missing!
+ 
+(Filename:  Line: 1754)
+
+Unloading 6 Unused Serialized files (Serialized files now loaded: 0)
+WARNING: Shader Unsupported: 'Toon/Basic Outline' - Pass 'OUTLINE' has no vertex shader
+WARNING: Shader Unsupported: 'Toon/Basic Outline' - All passes removed
+UnloadTime: 1.563187 ms
+
+Unloading 68 unused Assets to reduce memory usage. Loaded Objects now: 895.
+Total: 1.921403 ms (FindLiveObjects: 0.045885 ms CreateObjectMapping: 0.028355 ms MarkObjects: 0.282996 ms  DeleteObjects: 1.560324 ms)
+
